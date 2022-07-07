@@ -28,5 +28,5 @@ function doc()
 function about()
 {
    //require page
-   //require "components/about.php";
+   require "components/about.php";
 }
