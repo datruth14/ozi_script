@@ -1,12 +1,15 @@
 body{
 	margin: 0px;
-	background:#fff;
-	height:100vh;
+	background:#ecd;
 	width:100%;
 }
 
 .btn_curved{
 	border-radius:25px;
+}
+
+a,a:active,a:hover,a:focus{
+	text-decoration: none;
 }
 
 
