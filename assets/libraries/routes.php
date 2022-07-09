@@ -13,25 +13,31 @@ function newLink($type="btn btn-dark",$name="new",$title="TestModal",$icon="fas 
 }
 
 //call newScreen() and pass required paramiters to use
-function newScreen($screenId="new",$hcontents="App Title",$bcontents="doc.ozi"){
-?>
-
-<!-- modal-fadeInScale-fs top -->
-<div class="modal animate__animated animate__fadeIn animate__faster" id="<?php echo $screenId;?>" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog modal-fullscreen">
-        <div class="modal-content">
-          <div class="modal-header">                  
-               <i  style="font-size:25px;color:#202142;margin-right:0.5em;" class="fas fa-arrow-left modal-button-close" data-bs-dismiss="modal"></i>
-                <?php echo $hcontents;?>
-
+function newScreen($screenId="new",$hcontents="App Title",$bcontents="App Body"){
+  ?>
+  <!--Bootstrap Modal-->
+  <div class="modal animate__animated animate__fadeIn animate__faster" id="<?php echo $screenId;?>" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">                  
+                 <i  style="font-size:25px;color:#202142;margin-right:0.5em;" class="fas fa-arrow-left modal-button-close" data-bs-dismiss="modal"></i>
+                  <?php echo $hcontents;?>
+  
+            </div>
+            <div class="modal-body">
+             <?php
+                //checking if component exist or echo content data
+                if (function_exists($bcontents)) {
+                  $screen=$bcontents; $screen();
+                } else {
+                    echo $bcontents;
+                }
+                
+                ?>
+            </div>
+            </div>
           </div>
-          <div class="modal-body">
-            <iframe src="?screens=<?php echo $bcontents ;?>" style="width:100%;height:80vh;border:0px;margin:0px;">
-            </iframe>
-          </div>
-          </div>
-        </div>
-</div>
-<?php
-}
-
+  </div>
+  <?php
+  }
+  
