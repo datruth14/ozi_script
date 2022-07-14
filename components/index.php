@@ -10,36 +10,17 @@
       <p class="subtitle" style="font-size:22px;color:navy;font-style:bold;">With Ozi scripting, developing a cross-platform application is made easy.<br> Use existing components from ozi script or just create one and call it any where in your app.</p><br>
 
 
-      <!--<div class="btn-group" style="justify-content:center;">
-
-
-         <a class="btn btn-danger" href="?screens=doc.ozi">
-            <span class="icon-text">
-               <span class="icon"> <i class="fas fa-pen"> </i> </span>
-               <span>Basic Route</span> 
-            </span>
-         </a>
-
-
-         <button class="btn btn-primary" onclick="responsealert('basic alertH1','basic alert p (the next paramiter is an icon)','success')"> Try Alert </button>
-
-         <form action="" method="post" style="margin-right:8px;">
-            <button type="submit" name="send_mail" class="btn btn-info"> Send Mail </button>
-         </form>
-
-         <button class="btn btn-warning" href="#" onclick="loadHtml('doc.php')"> Dynamic Route </button>
-
-      </div>-->
       <center>
       <div class="btn-group">
-      <a onclick="appPage('./','doc.ozi','Sammy')" class="btn btn-warning btn_curved"><i class="fas fa-pen"></i> Documentation </a>
-      <div  onclick="appPage('./','about.ozi','Take Me Home')" > 
-               <?php newLink('btn btn-dark btn_curved ','about','About','fas fa-rocket'); ?>
-      </div>
+         <div onclick="appPage('./','doc.ozi','Sammy')">
+            <a  class="btn btn-warning btn_curved"><i class="fas fa-pen"></i> Documentation </a>
+         </div>
 
+         <div  onclick="appPage('./','about.ozi','Take Me Home')" > 
+                  <?php newLink('btn btn-dark btn_curved ','about','About','fas fa-rocket'); ?>
+         </div>
       </div>
-     
-   </center>
+      </center>
       <br><br><br>
 
       

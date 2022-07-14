@@ -1,19 +1,25 @@
 <!-- 
-  This file defines your app routing, to trigger a screen you have to add the
-   "data-bs-toggle="modal" data-bs-target="#nameofpage"  to your trigger button. Eg
-   <a data-bs-toggle="modal" data-bs-target="#nameofpage"> About Us </a> this will call the modal that has the targeted id eg.. copy bellow code and change the id to match your trigger button.
+  Full screen pop modal is just a bootstrap modal that is configured to work dynamically.
+  **call popUp  by adding this component "newPopBtn('btn btn-default','popUpId','buttonValue','buttonIcon')" to the page you want the trigger button to be and pass the required paramiters EG
+  newPop('btn btn-primary','about','About Us','fas fa-rocket');***
 
+  **pupUp Contents: Call popUp() component inside the current screen component.ozi file Eg
+  path: screens/home_page.ozi/ or any of your current screen component the below script is inside home_page.ozi; 
+  home_page script default "home_page();"
+  home_page script after adding popUp component  "home_page();popUp();"
+  Dont foget to pass in the required paramiters else the components will render the default value. 
+  
 -->
 
 
 <?php
 //us this to call a modal dialog and add the required parameters
-function newLink($type="btn btn-dark",$name="new",$title="TestModal",$icon="fas fa-rocket"){
+function newPopBtn($type="btn btn-dark",$name="new",$title="TestModal",$icon="fas fa-rocket"){
  echo '<a style="text-decoration:none;" class="'.$type.'"  data-bs-toggle="modal" data-bs-target="#'.$name.'"><i class="'.$icon.'"></i> '.$title.' </a>';
 }
 
 //call newScreen() and pass required paramiters to use
-function newScreen($screenId="new",$hcontents="App Title",$bcontents="App Body"){
+function popUp($screenId="new",$hcontents="App Title",$bcontents="App Body"){
   ?>
   <!--Bootstrap Modal-->
   <div class="modal animate__animated animate__fadeIn animate__faster" id="<?php echo $screenId;?>" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">

@@ -32,18 +32,3 @@ function responsealert(h1, des, msgicon) {
 
 
 
-
-/**Dynamic Roucting for SPA */
-/**Dynamic Roucting for SPA */
-/**Dynamic Roucting for SPA */
-function appPage(mainlink, appParamsOne,appParamsTwo) {
-  $("#main").load(mainlink, {
-    screens: appParamsOne,
-    pid:appParamsTwo
-  });
-  //hide default screen when a link is clicked
-  document.getElementById("root").style.display = "none";
-}
-/**Dynamic Roucting for SPA */
-/**Dynamic Roucting for SPA */
-/**Dynamic Roucting for SPA */

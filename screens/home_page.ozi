@@ -2,5 +2,5 @@
 //calling home page
 home_page();
 
-//calling newScreen() component
-newScreen('about','<b>About Ozi Script</b>','about');
+//calling popUp() component
+popUp('about','<b>About Ozi Script</b>','about');

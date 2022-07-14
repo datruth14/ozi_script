@@ -55,7 +55,7 @@
 
 </head>
 
-<body style="margin:0;">
+<body id="oziApp" style="margin:0;">
 
 <!--App entry point-->
 <div id="main"></div>

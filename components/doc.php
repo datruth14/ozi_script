@@ -10,7 +10,8 @@
             </b>
 
             <p style="font-size:22px;color:navy;font-style:bold;"> MAJORITU With Ozi scripting, developing a cross-platform application is made easy.<br> Use existing components from ozi script or just create one and call it any where in your app.</p><br>
-            <a class="btn_corved btn btn-md btn-primary" onclick="appPage('./')"><i class="fas fa-home"></i> Home </a>
+
+                  <a  onclick="bsLink('home_page.ozi')" class="btn_corved btn btn-md btn-primary"><i class="fas fa-home"></i> Home </a>
 
             
       </center>
