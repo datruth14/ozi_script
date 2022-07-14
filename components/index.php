@@ -17,7 +17,7 @@
          </div>
 
          <div  onclick="appPage('./','about.ozi','Take Me Home')" > 
-                  <?php newLink('btn btn-dark btn_curved ','about','About','fas fa-rocket'); ?>
+                  <?php newPopBtn('btn btn-dark btn_curved ','about','About','fas fa-rocket'); ?>
          </div>
       </div>
       </center>
