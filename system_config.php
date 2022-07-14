@@ -1,36 +1,49 @@
 <?php
-
+//setting the session time out to 1 week (604800) by default, change only if you know how it works*/
+ini_set("session.gc_maxlifetime", 604800);
+session_set_cookie_params(604800);
 /*starting a session, this allows you to store data in $_SESSION['data'] in any of your components*/
 session_start();
+//echo ini_get("session.gc_maxlifetime"), "\n";
 
 
-/*this file contains the libs,plugins and components paths that are required to enable the basic functionality of this framework you can add custome libraries, plugins or components to handle some funtionalities of your app above. you are not to edit or remove any file required bellow.
-*/
+/*System required libraries,Don't romeve or edit if you dont know how it works*/
+/*System required libraries,Don't romeve or edit if you dont know how it works*/
+/*System required libraries,Don't romeve or edit if you dont know how it works*/
+/*System required libraries,Don't romeve or edit if you dont know how it works*/
+
 //Getting mailer agent
 require 'assets/plugins/mail_agent/index.php';
+
+/*System required libraries,Don't romeve or edit if you dont know how it works*/
+/*System required libraries,Don't romeve or edit if you dont know how it works*/
+/*System required libraries,Don't romeve or edit if you dont know how it works*/
+/*System required libraries,Don't romeve or edit if you dont know how it works*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*System required libraries or plugins,Don't romeve or edit if you dont know how it works*/
+/*System required libraries or plugins,Don't romeve or edit if you dont know how it works*/
+/*System required libraries or plugins,Don't romeve or edit if you dont know how it works*/
+/*Fully required don't remove this files or comment it out. will cause an error if that happens */
+/*Fully required don't remove this files or comment it out. will cause an error if that happens */
+/*Fully required don't remove this files or comment it out. will cause an error if that happens */
 
 //getting quick alert lib
 require 'assets/libraries/quick_alert.php';
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Fully required don't remove this files or comment it out. will cause an error if that happens */
-/*Fully required don't remove this files or comment it out. will cause an error if that happens */
-/*Fully required don't remove this files or comment it out. will cause an error if that happens */
-
-//calling App Page Routes
-require "assets/libraries/routes.php";
+//007 calling App Page Routes
+require "assets/libraries/full_screen_modal.php";
 
 //006 Getting the file that is required to for building your app screen
 require 'view.php';
@@ -44,11 +57,15 @@ require "assets/libraries/dynamic_router.php";
 //003 Getting required file for your uert interface (UI) design
 require 'ui_config.php';
 
-
-
 //002 Getting the file that is required for handling the back end request
 require 'create_bk_request.php';
 
-
 //001 Getting the file required for calling back end request
 require 'call_bk_request.php';
+
+/*System required libraries or plugins,Don't romeve or edit if you dont know how it works*/
+/*System required libraries or plugins,Don't romeve or edit if you dont know how it works*/
+/*System required libraries or plugins,Don't romeve or edit if you dont know how it works*/
+/*Fully required don't remove this files or comment it out. will cause an error if that happens */
+/*Fully required don't remove this files or comment it out. will cause an error if that happens */
+/*Fully required don't remove this files or comment it out. will cause an error if that happens */
