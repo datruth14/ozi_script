@@ -20,6 +20,7 @@
             </span>
          </a>
 
+
          <button class="btn btn-primary" onclick="responsealert('basic alertH1','basic alert p (the next paramiter is an icon)','success')"> Try Alert </button>
 
          <form action="" method="post" style="margin-right:8px;">
@@ -31,8 +32,11 @@
       </div>-->
       <center>
       <div class="btn-group">
-      <a class="btn btn-warning btn_curved" href="?screens=doc.ozi" > <i class="fas fa-pen"></i> Documentation </a>
-      <?php newLink('btn btn-dark btn_curved','about','About','fas fa-rocket'); ?>
+      <a onclick="appPage('./','doc.ozi','Sammy')" class="btn btn-warning btn_curved"><i class="fas fa-pen"></i> Documentation </a>
+      <div  onclick="appPage('./','doc.ozi','Take Me Home')" > 
+               <?php newLink('btn btn-dark btn_curved ','about','About','fas fa-rocket'); ?>
+      </div>
+
       </div>
      
    </center>

@@ -57,30 +57,11 @@
 
 <body style="margin:0;">
 
+<!--App entry point-->
+<div id="main"></div>
 
-<div id="root" class="animate-bottom">
-<?php
-  //checking if linking is set
-  if (isset($_GET['screens'])) {
-    //checking if screen exist
-    if (file_exists("screens/".$_GET['screens']."")) {
-       require "screens/".$_GET['screens']."";
-    }else{
-      echo "<center><br><Br><br><h1 style='color:red;'><strong><i class='fa fa-spider'></i>Error 404</strong></h1><dp style='color:white;'>Opps Screen not found</dp></center><br><br>";
-    }
-  }else{
-  //checking if screen exist
-    if (file_exists("screens/home_page.ozi")) {
-         require "screens/home_page.ozi";
-    }else{
-      echo "<center><br><Br><br><h1 style='color:red;'><strong>Error 404</strong></h1><dp style='color:white;'>Default Home Page.ozi is missing</dp></center><br><br>";
-    }
-  }
-?>
-</div>
-  
   <!--jquery-->
-  <script src="assets/style/js/jquery.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="assets/style/js/bootstrap_5.js"></script>
@@ -96,7 +77,6 @@
 
   <!--Default javascript-->
   <script src="assets/style/main.js"></script>
-
 
 </body>
 
