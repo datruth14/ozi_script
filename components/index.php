@@ -33,7 +33,7 @@
       <center>
       <div class="btn-group">
       <a onclick="appPage('./','doc.ozi','Sammy')" class="btn btn-warning btn_curved"><i class="fas fa-pen"></i> Documentation </a>
-      <div  onclick="appPage('./','doc.ozi','Take Me Home')" > 
+      <div  onclick="appPage('./','about.ozi','Take Me Home')" > 
                <?php newLink('btn btn-dark btn_curved ','about','About','fas fa-rocket'); ?>
       </div>
 
