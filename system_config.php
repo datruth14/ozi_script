@@ -49,10 +49,10 @@ require "assets/libraries/full_screen_modal.php";
 require 'view.php';
 
 //005 calling default app router logic
-//require "assets/libraries/dynamic_router.php";
+require "assets/libraries/dynamic_router.php";
 
 //004 calling default app router logic
-require "assets/libraries/basic_router.php";
+//require "assets/libraries/basic_router.php";
 
 //003 Getting required file for your uert interface (UI) design
 require 'ui_config.php';
