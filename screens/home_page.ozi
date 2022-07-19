@@ -1,6 +1,3 @@
 <?php
 //calling home page
 home_page();
-
-//calling popUp() component
-popUp('about','<b>About Ozi Script</b>','about');

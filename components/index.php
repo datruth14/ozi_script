@@ -12,17 +12,11 @@
 
       <center>
       <div class="btn-group">
-         <div onclick="appPage('./','doc.ozi','Sammy')">
-            <a  class="btn btn-warning btn_curved"><i class="fas fa-pen"></i> Documentation </a>
-         </div>
-
-         <div  onclick="appPage('./','about.ozi','Take Me Home')" > 
-                  <?php newPopBtn('btn btn-dark btn_curved ','about','About','fas fa-rocket'); ?>
-         </div>
+            <a onclick="appPage('','doc.ozi')" class="btn btn-warning btn_curved"><i class="fas fa-pen"></i> Documentation </a>
+            <a onclick="appPage('','about.ozi')" class="btn btn-dark btn_curved"><i class="fas fa-rocket"></i> Learn More </a>
       </div>
       </center>
       <br><br><br>
 
-      
    </center>
 </div>

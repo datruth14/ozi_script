@@ -9,6 +9,13 @@ appPage('./','component_screen','passInparameters') EG2
 /**Dynamic Roucting for SPA */
 /**Dynamic Roucting for SPA */
 /**Dynamic Roucting for SPA */
+
+//Disable page refresh by user
+window.onbeforeunload = function() {
+  return "Are you sure you want to leave?";
+}
+
+//creating the router component in js
 function appPage(mainlink, appParamsOne,appParamsTwo) {
   $("#main").load(mainlink, {
     screens: appParamsOne,
@@ -24,6 +31,7 @@ function appPage(mainlink, appParamsOne,appParamsTwo) {
 
 
 
+<!--Getting the required page component when a button is triggered-->
 <?php
    //checking if linking is set
    if (isset($_POST['screens'])) {
@@ -39,3 +47,10 @@ function appPage(mainlink, appParamsOne,appParamsTwo) {
     echo "</div>";
   }
 ?>
+<!--Dynamic Roucting for SPA */
+/**Dynamic Roucting for SPA */ -->
+
+
+
+
+

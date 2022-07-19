@@ -39,20 +39,17 @@ require 'assets/plugins/mail_agent/index.php';
 /*Fully required don't remove this files or comment it out. will cause an error if that happens */
 /*Fully required don't remove this files or comment it out. will cause an error if that happens */
 
-//getting quick alert lib
+//007 require system_lib
+require 'assets/libraries/system_lib.php';
+
+//006 getting quick alert lib
 require 'assets/libraries/quick_alert.php';
 
-//007 calling App Page Routes
-require "assets/libraries/full_screen_modal.php";
-
-//006 Getting the file that is required to for building your app screen
+//005 Getting the file that is required to for building your app screen
 require 'view.php';
 
-//005 calling default app router logic
-require "assets/libraries/dynamic_router.php";
-
 //004 calling default app router logic
-//require "assets/libraries/basic_router.php";
+require "assets/libraries/router.php";
 
 //003 Getting required file for your uert interface (UI) design
 require 'ui_config.php';

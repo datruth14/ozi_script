@@ -1,3 +1,4 @@
+<?php backBtn();?>
 
 
 <div style="padding:15px;" class="">
@@ -9,9 +10,9 @@
                         Sorry for this, we are still putting up a proper documentaion. </h1>
             </b>
 
-            <p style="font-size:22px;color:navy;font-style:bold;"> MAJORITU With Ozi scripting, developing a cross-platform application is made easy.<br> Use existing components from ozi script or just create one and call it any where in your app.</p><br>
-            <div ">
-                  <a onclick="appPage('./')" class="btn_corved btn btn-md btn-primary"><i class="fas fa-home"></i> Home </a>
+            <p style="font-size:22px;color:navy;font-style:bold;"> With Ozi scripting, developing a cross-platform application is made easy.<br> Use existing components from ozi script or just create one and call it any where in your app.</p><br>
+            <div onclick="appPage('./','home_page.ozi')">
+                  <a  class="btn_corved btn btn-md btn-primary"><i class="fas fa-home"></i> Home </a>
             </div>            
       </center>
 </div>
