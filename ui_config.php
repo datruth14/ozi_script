@@ -63,7 +63,7 @@
                 echo "<center><br><Br><br><h1 style='color:red;'><strong><i class='fa fa-spider'></i>Error 404</strong></h1><dp style='color:white;'>Opps Screen not found</dp></center><br><br>";
             }
         } else {
-            homepage();
+            require 'components/index.php';
         }
         ?>
     </section>
