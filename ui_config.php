@@ -58,11 +58,11 @@
     <section id="root">
         <?php
         //checking if linking is set
-        if (isset($_GET['s'])) {
+        if (isset($_GET['screen'])) {
             //checking if screen exist
-            if (file_exists("screens/" . $_GET['s'] . "")) {
+            if (file_exists("screens/" . $_GET['screen'] . "")) {
                 echo "<style>#loader{display:none;}</style>";
-                require "screens/" . $_GET['s'] . "";
+                require "screens/" . $_GET['screen'] . "";
             } else {
                 echo "<center><br><Br><br><h1 style='color:red;'><strong><i class='fa fa-spider'></i>Error 404</strong></h1><dp style='color:white;'>Opps Screen not found</dp></center><br><br>";
             }
