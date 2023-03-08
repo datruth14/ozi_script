@@ -29,7 +29,7 @@ session_start();
 //Getting mail_agent
 //require 'assets/plugins/mail_agent/index.php';
 
-//Getting Carbon 
+//Getting Carbon
 //require 'assets/plugins/carbon/index.php';
 
 /*========  END OF PLUGIN'S ============*/
