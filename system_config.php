@@ -74,7 +74,8 @@ session_start();
 //getting fab lib
 //require 'assets/libraries/fab.php';
 
-
+//getting qrcode lib
+//require 'assets/libraries/qrcode.php';
 
 /*=======  END OF LABRARIES ============*/
 /*=======  END OF LABRARIES ============*/
