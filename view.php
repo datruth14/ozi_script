@@ -3,4 +3,3 @@
 function homepage() {
   require "components/index.php";
 }
-

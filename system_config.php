@@ -71,8 +71,6 @@ session_start();
 //require 'assets/libraries/sharePage.php';
 
 
-//getting fab lib
-//require 'assets/libraries/fab.php';
 
 //getting qrcode lib
 //require 'assets/libraries/qrcode.php';
@@ -85,6 +83,31 @@ session_start();
 /*=======  END OF LABRARIES ============*/
 /*=======  END OF LABRARIES ============*/
 /*=======  END OF LABRARIES ============*/
+
+
+
+
+
+/*==== WIDGETS ==============*/
+/*==== WIDGETS ==============*/
+/*==== WIDGETS ==============*/
+/*==== WIDGETS ==============*/
+/*==== WIDGETS ==============*/
+/*==== WIDGETS ==============*/
+/*==== WIDGETS ==============*/
+/*==== WIDGETS ==============*/
+
+//getting fab lib
+//require 'assets/libraries/fab.php';
+
+
+/*====END OF ========WIDGETS */
+/*====END OF ========WIDGETS */
+/*====END OF ========WIDGETS */
+/*====END OF ========WIDGETS */
+/*====END OF ========WIDGETS */
+/*====END OF ========WIDGETS */
+/*====END OF ========WIDGETS */
 
 
 
