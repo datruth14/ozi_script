@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="theme-color" content="#EECDDD">
+    <meta name="theme-color" content="#212529">
     <meta name="description" content="Ozi Script">
     <meta name="keyword" content="Build web app with ease using ozi script">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <link rel="icon" type="image/x-icon" href="assets/media/images/icons/favicon.ico">
     <link rel="manifest" href="manifest.json">
 
     <!-- bootstrap_5.css -->
@@ -17,10 +16,14 @@
     <!-- iOS meta tags & icons -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="DigiNotes">
+    <meta name="apple-mobile-web-app-title" content="Ozi Script">
 
-    <!--set your app logo for header title-->
-    <link rel="apple-touch-icon" href="assets/media/images/icons/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/media/images/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/media/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/media/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="assets/media/images/icons/site.webmanifest">
+    <link rel="mask-icon" href="assets/media/images/icons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
 
     <!--Load fonts/ dependencies here-->
     <!--Load fonts/ dependencies here-->
