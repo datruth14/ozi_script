@@ -8,7 +8,7 @@
     <meta name="description" content="Ozi Script">
     <meta name="keyword" content="Build web app with ease using ozi script">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="/manifest.json">
 
     <!-- bootstrap_5.css -->
     <link href="assets/style/css/bootstrap_5.css" rel="stylesheet" />
