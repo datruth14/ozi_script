@@ -17,6 +17,7 @@ self.addEventListener("install", event => {
 				"assets/media/images/icons/favicon-32x32.png", // Favicon, Safari on Mac OS
 				"index.php", // Main HTML file
                 "sw.js",
+				"offline.html",
 				"assets/style/main.js", // Main Javascript file
                 "assets/style/js/bootstrap_5.js",
                 "assets/style/js/jquery.js",
@@ -65,3 +66,7 @@ self.addEventListener("fetch", event => {
 		})
 	);
 });
+
+
+
+
