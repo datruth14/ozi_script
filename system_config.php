@@ -42,6 +42,9 @@ session_start();
 /*========  LABRARIES ============*/
 /*========  LABRARIES ============*/
 
+//getting redirect_to lib
+//require 'assets/libraries/redirect_to.php';
+
 //getting quick alert lib
 //require 'assets/libraries/quick_alert.php';
 
