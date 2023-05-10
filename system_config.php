@@ -18,6 +18,8 @@ session_start();
 /*========  PLUGIN'S ============*/
 /*========  PLUGIN'S ============*/
 
+//get more plugins as you wish
+
 //Getting mail_agent
 //require 'assets/plugins/mail_agent/index.php';
 
@@ -41,6 +43,8 @@ session_start();
 /*========  LABRARIES ============*/
 /*========  LABRARIES ============*/
 /*========  LABRARIES ============*/
+
+//get more libraries as you wish
 
 //getting redirect_to lib
 //require 'assets/libraries/redirect_to.php';
