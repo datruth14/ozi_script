@@ -1,8 +1,4 @@
 <?php
-//setting the session time out to 1 week (604800) by default, change only if you know how it works*/
-ini_set("session.gc_maxlifetime", 604800);
-session_set_cookie_params(604800);
-
 /*starting a session, this allows you to store data in $_SESSION['data'] in any of your components*/
 session_start();
 //echo ini_get("session.gc_maxlifetime"), "\n";
@@ -35,40 +31,13 @@ session_start();
 /*========  END OF PLUGIN'S ============*/
 /*========  END OF PLUGIN'S ============*/
 
-/*========  LABRARIES ============*/
-/*========  LABRARIES ============*/
-/*========  LABRARIES ============*/
-/*========  LABRARIES ============*/
-/*========  LABRARIES ============*/
-/*========  LABRARIES ============*/
-/*========  LABRARIES ============*/
-/*========  LABRARIES ============*/
 
-//get more libraries as you wish
 
-//getting redirect_to lib
-//require 'assets/libraries/redirect_to.php';
 
-//getting quick alert lib
-//require 'assets/libraries/quick_alert.php';
 
-//getting modal lib
-//require 'assets/libraries/modal.php';
 
-//getting nativeShare lib
-//require 'assets/libraries/sharePage.php';
 
-//getting qrcode lib
-//require 'assets/libraries/qrcode.php';
 
-/*=======  END OF LABRARIES ============*/
-/*=======  END OF LABRARIES ============*/
-/*=======  END OF LABRARIES ============*/
-/*=======  END OF LABRARIES ============*/
-/*=======  END OF LABRARIES ============*/
-/*=======  END OF LABRARIES ============*/
-/*=======  END OF LABRARIES ============*/
-/*=======  END OF LABRARIES ============*/
 
 /*==== WIDGETS ==============*/
 /*==== WIDGETS ==============*/
@@ -79,7 +48,10 @@ session_start();
 /*==== WIDGETS ==============*/
 /*==== WIDGETS ==============*/
 
-//getting fab lib
+//getting modal 
+require 'assets/widgets/modal.php';
+
+//getting fab widget
 //require 'assets/widgets/fab.php';
 
 /*====END OF ========WIDGETS */

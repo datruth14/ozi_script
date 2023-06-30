@@ -59,20 +59,8 @@
     </div>
 
     <section id="root">
-        <?php
-//checking if linking is set
-if (isset($_GET['screens'])) {
-	//checking if screen exist
-	if (file_exists("screens/" . $_GET['screens'] . "")) {
-		echo "<style>#loader{display:none;}</style>";
-		require "screens/" . $_GET['screen'] . "";
-	} else {
-		echo "<center><br><Br><br><h1 style='color:red;'><strong><i class='fa fa-spider'></i>Error 404</strong></h1><dp style='color:white;'>Opps Screen not found</dp></center><br><br>";
-	}
-} else {
-	require 'components/index.php';
-}
-?>
+       <!-- App Entry Point -->
+       <?php MultiPageRouter(); ?>
     </section>
 
     <!--jquery-->
