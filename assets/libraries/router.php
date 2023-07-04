@@ -7,7 +7,7 @@ function linkTo($newLink="#",$setParam="") {
 }
 
 //Call This Function In Your App Entry Point If You Are Building a Multiple PAge Application
-function MultiPageRouter() {
+function ScreenRouter() {
     //checking if linking is set
     if (isset($_GET['S'])) {
       //checking if screen exist
