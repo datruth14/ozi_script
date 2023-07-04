@@ -1,5 +1,6 @@
+<!-- calling custome cssd -->
+<?php styleSheet('home/index');?>
 
-<?php //require "assets/style/home.css";?>
 
 
 <div class="px-4 py-5 my-5  text-center">
@@ -10,7 +11,7 @@
 
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
 
-      <a  href="#"  class="btn  btn-lg px-4 gap-3" style="border-radius:25px;background:#020238;color:white;"> Get Started With Widgets  </a>      
+      <a  id="getbtn" href="#"  class="btn  btn-lg px-4 gap-3"> Get Started With Widgets  </a>      
     </div>
     </div>
 </div>

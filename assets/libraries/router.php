@@ -30,7 +30,7 @@ function ScreenRouter() {
         ';
       }
     } else {
-      require 'components/index.php';
+      homepage();
     }
 }
 
