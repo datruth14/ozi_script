@@ -1,5 +1,7 @@
 <!-- calling custome cssd -->
-<?php styleSheet('home/index');?>
+<?php
+ styleSheet('home/index');
+?>
 
 
 
