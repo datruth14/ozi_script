@@ -1,16 +1,17 @@
 
 <?php 
-//calling this function in your app screen you must
-//uncomment the qrcode lib inside system_config.php
-//required paramiters
-//param1 = the url of the qrcode will goto when scanned
-//param2 = the width of the qrcod
-//param3 = the height of the qrcode
-//call this in you app component 
-//EG::: qrcodeGen('google.com','300','300') ******************
-////////Please Note That if you leave any feild empty, it will be replaced with the default value //////
+/** Installation Guide (How To Use FAB Widget)
+ * After Downloading this widget, 
+ * move it into your project file in (assets/widgets/qrcode.php)
+ * require it in between  the /*=== WIDGETS ==============/* Comment inside your project file in system_config.php 
+ * save and call the widget qrcodeGen() inside any of your componets root files (components/index.php etc)  and add the required parameters as follows::
+ * Sample ::: <?php qrcodeGen("url","width","height","300");?>
+ * leave empty to see default values or update parameters as it suites you
+ * thank you for chosing ozi...
+ */
 
 
+ //creating qrcode genarator component
 function qrcodeGen($url='ozi.com.ng',$width='300',$height="300"){
  ?>
 

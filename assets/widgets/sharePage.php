@@ -1,17 +1,12 @@
 <?php
-//sharePage API Component 
-//sharePage API Component 
-//sharePage API Component 
-//sharePage API Component 
-//To use just call nativeShare() component inside the page you whish to share and pass the required paramiters
-//To use just call nativeShare() component inside the page you whish to share and pass the required paramiters
-//To use just call nativeShare() component inside the page you whish to share and pass the required paramiters
-//To use just call nativeShare() component inside the page you whish to share and pass the required paramiters
-//EG calling nativeShare('.buttonClassName','Product title or site name','Short description about the page'); inside blog.php file/page
-//EG calling nativeShare('.buttonClassName','Product title or site name','Short description about the page'); inside blog.php file/page
-//EG calling nativeShare('.buttonClassName','Product title or site name','Short description about the page'); inside blog.php file/page
-//EG calling nativeShare('.buttonClassName','Product title or site name','Short description about the page'); inside blog.php file/page
-//EG calling nativeShare('.buttonClassName','Product title or site name','Short description about the page'); inside blog.php file/page
+/** Installation Guide (How To Use FAB Widget)
+ * After Downloading this widget, 
+ * move it into your project file in (assets/widgets/nativeShare.php)
+ * require it in between  the /*=== WIDGETS ==============/* Comment inside your project file in system_config.php 
+ * save and call the widget nativeShare() inside any of your componets root files (components/index.php etc) and add the required parameters as follows::
+ * Sample ::: <?php nativeShare('.buttonClassName','Product title or site name','Short description about the page');?>
+ * thank you for chosing ozi...
+ */
 function nativeShare($btnClicked="", $shareTitle="", $shareText="")
 {
     //getting this page url

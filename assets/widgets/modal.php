@@ -1,15 +1,19 @@
 <?php 
-/*
-usage of this modal, requires you to call the trigger and the modal inside the page/ component you want to use it
-//And also call in the required contents, which has to be a component file but not the same name as the primary component which has the modal trigger code.
-//Eg inside you component  insert or call modal_trigger() and pass in any name as a string in the first paramiter
-//And in the next line call modal() and pass in the name of the modal as the second parmiter which most match the trigger name
-//EG <button <?php modal_trigger("profile_page") ;?> > modal_trigger </button> this will be the trigger button which can also be assigned to a div or any html tag
-//and now call the modal() after the trigger button eg <?php modal("profile_page","name_of_component.php"); ?>
-//pleass not that you cant call the perant component as the peremiter component, else will result to an error 
-*/
+/** Installation Guide (How To Use modal)
+ * After Downloading this widget, 
+ * move it into your project file in (assets/widgets/modal.php)
+ * require it in between  the /*=== WIDGETS ==============/* Comment inside your project file in system_config.php 
+ * save and call the widget modal_trigger() inside any of your componets root files inside a button,div,a,h1 etc tags and add the required parameters as follows::
+ * Sample ::: <div <?php modal_trigger("NameOfModal");?> > Am a div </div>
+ * And at the bottom of your page call the modal() and pass the parameters as required
+ * Sample ::: <?php modal("NameOfModalSameAsModal_trigger", "fileToDisplayPathEGcomp_files/sample.php", "ModalTitleEGmyApp", "DisplayAnimationEGfadeOrGetMoreFromAnimate.Style") ; ?>
+ * leave empty to see default values or update parameters as it suites you
+ * thank you for chosing ozi...
+ */
 
 
+
+ 
 /*call this function inside <a> tag , <h> tag or any html tag to make it trigger the modal screen you want to display content into */
 //this is used for Single page application or you can use both in on
 function modal_trigger($trigger="exampleModal"){

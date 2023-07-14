@@ -1,7 +1,12 @@
 <?php 
-/** HOW TO USE
- * Call the wiget component inside the screen you whish to use it eg, fab("","","","","") and pass in the required paramater, leave the feild you dont want to change empty i. "","white" if empty, it will display the default settings
- *Sample ::: <?php fab("left","black","green","bell","?s=about","alert('It Worked')");?>
+/** Installation Guide (How To Use FAB Widget)
+ * After Downloading this widget, 
+ * move it into your project file in (assets/widgets/fab.php)
+ * require it in between  the /*=== WIDGETS ==============/* Comment inside your project file in system_config.php 
+ * save and call the widget fab() inside any of your componets root files (components/index.php etc)  and add the required parameters as follows::
+ * Sample ::: <?php fab("direction","bgColor","iconColor","IconName","url","OnclickEvent");?>
+ * leave empty to see default values or update parameters as it suites you
+ * thank you for chosing ozi...
  */
 
 //creating a floating action button library 

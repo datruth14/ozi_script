@@ -1,21 +1,18 @@
 <?php
-/* This is just a sweet alert modal and a basic javascript alert
-to triger alert call the alert component inside the current screen you wish to trigger the alert from.
-it can also be triggered on onscreen load event or a form submit event and a success callback function;
-**calling quick_alert() component
-call quick_alert() and pass in the required paramiger, only one parmiter required. eg quick_alert("My Name Is Victor");
-
-**calling quick_alert2() component
-call quick_alert2() and pass in the required paramigers, only Three(3) parmiters are required. eg quick_alert2("H1","paragraph","animatedIcon"); EG
-quick_alert2('Well Done','Your file has been uploaded to the server','success'); if the component is called with any given parmeters it will pop out the default values;
-AnimatedIcons to call based on your needs
-icon 1: "success"
-icon 2: "warning"
-icon 3: "info"
-icon 3: "error"
-
-animated icons are called based on a given status of  a request...
-*/
+/** Installation Guide (How To Use FAB Widget)
+ * After Downloading this widget, 
+ * move it into your project file in (assets/widgets/qrcode.php)
+ * require it in between  the /*=== WIDGETS ==============/* Comment inside your project file in system_config.php 
+ * save and call the widget quick_alert() inside any of your componets root files (components/index.php etc)  and add the required parameters as follows::
+ * Sample ::: <?php quick_alert("Message");?>
+ * or sample 2 ::: <?php quick_alert2("Title","description","Icon");?>
+ * icon 1: "success"
+ * icon 2: "warning"
+ * icon 3: "info"
+ * icon 3: "error"
+ * leave empty to see default values or update parameters as it suites you
+ * thank you for chosing ozi...
+ */
 
 
 //this will called in your script when you need to send an alert
