@@ -51,6 +51,9 @@ require "assets/libraries/cssd.php";
 //calling jsd lib
 require "assets/libraries/jsd.php";
 
+//calling iosMedia lib
+require "assets/libraries/ios_media.php";
+
 /*====END OF ======== LIBRARIES */
 /*====END OF ======== LIBRARIES */
 /*====END OF ======== LIBRARIES */
@@ -80,6 +83,7 @@ require "assets/libraries/jsd.php";
 
     //calling FAB lib
     //require "assets/widgets/fab.php";
+    require "assets/widgets/navbar.php";
 
 /*====END OF ======== WIDGETS */
 /*====END OF ======== WIDGETS */

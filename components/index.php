@@ -3,7 +3,7 @@
  styleSheet('home/index');
 ?>
 
-
+<?php navBar(); ?>
 
 <div class="px-4 py-5 my-5  text-center">
     <img src="assets/media/images/icons/android-chrome-192x192.png" alt="OziApp" class="lazy">
