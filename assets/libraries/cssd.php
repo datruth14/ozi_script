@@ -1,18 +1,5 @@
 <?php 
 
-
-
-//use this to add new css files to your components
-//use this to add new css files to your components
-//use this to add new css files to your components
-//use this to add new css files to your components
-function styleSheet($stylefile="") {
-?>
-  <link rel="stylesheet" href="assets/style/<?php echo $stylefile.'.css';?>"> 
-<?php 
-}
-
-
 //all the required css dependency for ozi // You can replace with your preffered cssd
 //all the required css dependency for ozi // You can replace with your preffered cssd
 //all the required css dependency for ozi // You can replace with your preffered cssd
@@ -51,8 +38,6 @@ function CssDependency() {
 
     <!--default css-->
     <link rel="stylesheet" type="text/css" href="assets/style/default_css/main.css" />
-
-    
 
   <?php 
 }

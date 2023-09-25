@@ -83,7 +83,8 @@ require "assets/libraries/ios_media.php";
 
     //calling FAB lib
     //require "assets/widgets/fab.php";
-    require "assets/widgets/navbar.php";
+    //require "assets/widgets/navbar.php";
+    require "assets/widgets/cardItems.php";
 
 /*====END OF ======== WIDGETS */
 /*====END OF ======== WIDGETS */
