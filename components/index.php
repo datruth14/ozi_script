@@ -6,7 +6,7 @@
     <p class="lead mb-4" style="color:purple;font-weight:430;">You have successfully downloaded and installed ozi script project structure, Let's start by editing the index.php component inside your project directory. <a href="#"> Learn More </a></p>
 
     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-      <a id="getbtn" href="?s=widgets" class="btn  btn-lg px-4 gap-3"> Get Started With Widgets </a>
+      <a id="getbtn" href="?s=widgets" class="btn  btn-lg btn-success"> Get Started With Widgets </a>
     </div>
 
   </div>
