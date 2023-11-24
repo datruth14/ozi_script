@@ -1,14 +1,15 @@
 <?php
 
 //Call This Function In Your App Entry Point If You Are Building a Multiple PAge Application
-function ScreenRouter() {
-    //checking if linking is set
-    if (isset($_GET['s'])) {
-      //checking if screen exist
-      if (file_exists("screens/" . $_GET['s'] . "")) {
-        require "screens/" . $_GET['s'] . "";
-      } else {
-        echo '
+function ScreenRouter()
+{
+  //checking if linking is set
+  if (isset($_GET['s'])) {
+    //checking if screen exist
+    if (file_exists("screens/" . $_GET['s'] . "")) {
+      require "screens/" . $_GET['s'] . "";
+    } else {
+      echo '
               
               <div style="min-height: 100vh;" class="page-wrap d-flex flex-row align-items-center">
               <div class="container">
@@ -22,9 +23,8 @@ function ScreenRouter() {
               </div>
             </div>    
         ';
-      }
-    } else {
-      homepage();
     }
+  } else {
+    homepage();
+  }
 }
-

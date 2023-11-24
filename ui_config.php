@@ -21,9 +21,11 @@
 <!--Calling CSS Dependency -->
 <?php CssDependency() ;?>
 </head>
-<body id="oziApp" style="margin:0;">
+<body onload="myFunction()" style="margin:0;">
+<div id="loader"></div>
+
    
-    <section id="root">
+    <section style="display:none;" id="myDiv" class="animate-bottom">
        <!-- App Entry Point -->
        <!-- App Entry Point -->
        <!-- App Entry Point -->
