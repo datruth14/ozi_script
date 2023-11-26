@@ -17,10 +17,10 @@ session_start();
 //get more plugins as you wish
 
 //Getting mail_agent
-//require 'assets/plugins/mail_agent/index.php';
+//require 'system_files/plugins/mail_agent/index.php';
 
 //Getting Carbon
-//require 'assets/plugins/carbon/index.php';
+//require 'system_files/plugins/carbon/index.php';
 
 /*========  END OF PLUGIN'S ============*/
 /*========  END OF PLUGIN'S ============*/
@@ -43,16 +43,16 @@ session_start();
 /*==== LIBRARIES ==============*/
 
 //calling app router Lib
-require "assets/libraries/router.php";
+require "system_files/libraries/router.php";
 
 //calling cssd lib
-require "assets/libraries/cssd.php";
+require "system_files/libraries/cssd.php";
 
 //calling jsd lib
-require "assets/libraries/jsd.php";
+require "system_files/libraries/jsd.php";
 
 //calling iosMedia lib
-require "assets/libraries/ios_media.php";
+require "system_files/libraries/ios_media.php";
 
 /*====END OF ======== LIBRARIES */
 /*====END OF ======== LIBRARIES */
@@ -84,7 +84,7 @@ require "assets/libraries/ios_media.php";
     //calling FAB lib
     //require "assets/widgets/fab.php";
     //require "assets/widgets/navbar.php";
-    require "assets/widgets/cardItems.php";
+    require "system_files/widgets/cardItems.php";
 
 /*====END OF ======== WIDGETS */
 /*====END OF ======== WIDGETS */
