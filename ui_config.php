@@ -21,16 +21,25 @@
 <!--Calling CSS Dependency -->
 <?php CssDependency() ;?>
 </head>
-<body onload="myFunction()" style="margin:0;">
-<div id="loader"></div>
+<body>
+<!-- App Entry Point -->
+<!-- App Entry Point -->
+<!-- App Entry Point -->
+<nav>
+    <ul>
+      <li><a href="#" hx-get="index.php?s=home" hx-push-url="true" hx-target="#content">Home</a></li>
+      <li><a href="#" hx-get="index.php?s=about" hx-push-url="true" hx-target="#content">About</a></li>
+      <li><a href="#" hx-get="index.php?s=contact" hx-push-url="true" hx-target="#content">Contact</a></li>
+    </ul>
+</nav>
+
+<div id="content">
+    <?php ScreenRouter(); ?>
+</div>
+
+
 
    
-    <section style="display:none;" id="myDiv" class="animate-bottom">
-       <!-- App Entry Point -->
-       <!-- App Entry Point -->
-       <!-- App Entry Point -->
-       <?php ScreenRouter(); ?>
-    </section>
 
 <!-- Calling Javascript Dependency -->
 <!-- Calling Javascript Dependency -->
