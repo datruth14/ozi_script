@@ -7,7 +7,7 @@
 
     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
       <a id="getbtn" href="?s=widgets" class="btn  btn-lg btn-success"> Get Started With Widgets </a>
-      <a class="btn btn-primary" href="?s=about"> About </a>
+      <a class="btn btn-primary" <?php linkTo("about"); ?> > About </a>
 
     </div>
 

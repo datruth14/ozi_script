@@ -25,13 +25,6 @@
 <!-- App Entry Point -->
 <!-- App Entry Point -->
 <!-- App Entry Point -->
-<nav>
-    <ul>
-      <li><a href="#" hx-get="index.php?s=home" hx-push-url="true" hx-target="#content">Home</a></li>
-      <li><a href="#" hx-get="index.php?s=about" hx-push-url="true" hx-target="#content">About</a></li>
-      <li><a href="#" hx-get="index.php?s=contact" hx-push-url="true" hx-target="#content">Contact</a></li>
-    </ul>
-</nav>
 
 <div id="content">
     <?php ScreenRouter(); ?>

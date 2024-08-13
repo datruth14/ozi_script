@@ -81,10 +81,22 @@ require "system_files/libraries/ios_media.php";
 /*==== WIDGETs ==============*/
 /*==== WIDGETs ==============*/
 
-    //calling FAB lib
-    //require "assets/widgets/fab.php";
-    //require "assets/widgets/navbar.php";
+    require "system_files/widgets/modal.php";
+
+    require "system_files/widgets/fab.php";
+
+    require "system_files/widgets/navbar.php";
+
     require "system_files/widgets/cardItems.php";
+
+    require "system_files/widgets/linkTo.php";
+
+    require "system_files/widgets/quick_alert.php";
+
+    require "system_files/widgets/sharePage.php";
+
+    require "system_files/widgets/qrcode.php";
+
 
 /*====END OF ======== WIDGETS */
 /*====END OF ======== WIDGETS */
