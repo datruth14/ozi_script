@@ -38,6 +38,10 @@ function CssDependency() {
 
     <!--default css-->
     <link rel="stylesheet" type="text/css" href="assets/style/default_css/main.css" />
+    
+    <!--calling HTMX-->
+    <script src="https://unpkg.com/htmx.org"></script>
+
 
   <?php 
 }
